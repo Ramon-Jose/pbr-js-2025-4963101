@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 03</title>
+    <style>
+        * {
+            font-size: 16px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        }
+
+        .cartao {
+            border: 1px solid #b5b5b5;
+            width: 14rem;
+            height: 15rem;
+            background-color: grey;
+            padding: 1rem;
+            margin: 2rem auto;
+            box-shadow: .5rem .5rem .3rem .01rem #dceb08;
+            color: #dceb08;
+        }
+
+        img {
+            height: 8rem;
+            width: 12rem;
+        }
+
+        .preco {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cartao">
+
+        <script>
+            /*
+            Declaração de variavel.
+            */
+            var produto = prompt("Informe o nome do produto: ");
+            var descricao = prompt("Informe a descrição do produto produto: ");
+            var preco = prompt("Informe o valor do produto: ");
+
+            document.write("<img src='image.png' alt='logo bh sup'>");
+            document.write(`<h1 class="titulo">${produto}</h1>`);
+            document.write(`<article class="descricao">${descricao}</article>`);
+            document.write(`<aside class="preco"> ${preco}</aside>`);
+            
+            
+        </script>
+    </div>
+</body>
+
+</html>
